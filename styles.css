@@ -1,1 +1,100 @@
+body {
+  margin-top: 0;
+  font-style: sans-serif;
+}
+
+.container { 
+  max-width: 1000px;
+  margin: 0 auto;
+  /*background-color: green;*/
+  padding: 3%;
+
+}
+
+/*header {
+  background-color: yellow;
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+  height: 30%;
+  padding: .7em 1em;
+}*/
+
+p {
+  font-family: sans-serif;
+  font-size: 130%;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.item {
+  width: 25%;
+  float: left;
+  height: 175px;
+  max-height: 300px;
+  min-width: 150px; 
+  line-height: 175px; 
+}
+
+.item a {
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.logo {
+  width: 150%;
+  /*text-align: center;*/
+  /*display: inline-block;*/
+}
+
+footer {
+  text-align: center;
+  width: 70%;
+  border-top: .5px solid #aaa;
+  clear: both;
+  margin: 10px auto;
+}
+/*
+img {
+  vertical-align: middle;
+}*/
+
+p.commitment-message {
+  font-size: 15px;
+  text-align: center;
+}
+
+ul {
+  margin: 0 10px;
+  padding: 0; 
+
+}
+
+li {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 1em;
+  font-family: sans-serif;
+  color: blue;
+  padding: 9px;
+}
+
+
+
 
